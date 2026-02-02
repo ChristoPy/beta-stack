@@ -70,3 +70,7 @@ Posts live in `apps/landing/src/content/blog/` as Markdown (frontmatter: title, 
 - **Landing** – Set `site` in `apps/landing/astro.config.mjs` to your real domain. Set `PUBLIC_API_URL` to your deployed API URL.
 - **API** – Deploy the API (e.g. Railway, Fly) and set `PORT` if needed. Set `CORS_ORIGIN` to your frontend origin (e.g. `https://yoursite.com`) so the browser allows requests. The login demo requires the API to be reachable and CORS to allow your frontend.
 - **Security** – If you add a server (e.g. Node adapter for Astro or a reverse proxy), set headers like `X-Content-Type-Options: nosniff` and `X-Frame-Options: DENY`; see your platform’s docs.
+
+## License
+
+MIT © See [LICENSE](LICENSE) for details.
